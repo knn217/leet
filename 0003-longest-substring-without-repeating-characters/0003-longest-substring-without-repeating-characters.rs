@@ -1,30 +1,18 @@
-use std::cmp;
-
 impl Solution {
     pub fn length_of_longest_substring(s: String) -> i32 {
+        let mut map = vec![usize::MAX; 128]; // Vec of 128 element, use MAX as init value
+        let mut start = 0;
         let mut max = 0;
-        let mut map = vec![usize::MAX; 128]; // Vec of 128 element, init as 0
-        let mut start: usize = 0;
-        for (i, c) in s.chars().enumerate() {
-            let b = c as usize;
-            if b > map.len() {
-                map.resize(b, usize::MAX);
-            }
+        for (end, ch) in s.chars().enumerate() {
+            let b = ch as usize;
             if usize::MAX != map[b] {
-                if map[b] >= start {
-                    // println!("repeated idx {}, updating starting point from {} to {}", map[b], start, map[b] + 1);
-                    start = map[b] + 1;
-                }
-                // println!("deprecated idx {}, updating to {}", map[b], i);
-                map[b] = i;
-            } else {
-                // println!("Unintialized idx, init to {}", i);
-                map[b] = i;
+                // Found valid index for current char -> a repeat
+                start = start.max(map[b]); // start takes the max of the 2 repeats
             }
-            // println!("{}", c);
-            // println!("{}, {}, {}", max, i, start);
-            max = cmp::max(max, (i + 1 - start));
+            max = max.max(end + 1 - start);
+            // Update the index in map
+            map[b] = end + 1;
         }
-        return max as i32;
+        max as i32
     }
 }
