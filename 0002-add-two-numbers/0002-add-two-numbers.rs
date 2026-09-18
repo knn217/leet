@@ -42,7 +42,7 @@ impl Solution {
                 }
                 l2_ = node.next.as_deref_mut();
             }
-            println!("{}, {}", sum, carryover);
+            // println!("{}, {}", sum, carryover);
         }
         l2
     }
