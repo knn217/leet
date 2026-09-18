@@ -15,33 +15,35 @@
 //   }
 // }
 impl Solution {
-    pub fn add_two_numbers(l1: Option<Box<ListNode>>, l2: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
+    pub fn add_two_numbers(mut l1: Option<Box<ListNode>>, mut l2: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
         // Handle edge cases
         if l1 == None { return l2; }
         if l2 == None { return l1; }
         // Handle normal case
-        let mut l3 = Some(Box::new(ListNode::new(0)));
-        let mut l1 = l1.as_deref();
-        let mut l2 = l2.as_deref();
-        let mut l3_current = l3.as_deref_mut();
+        let mut l1_ = l1.as_deref_mut();
+        let mut l2_ = l2.as_deref_mut();
         let mut carryover = 0;
-        while l1.is_some() || l2.is_some() || carryover != 0 {
+        while l1_.is_some() || l2_.is_some() || carryover != 0 {
             let mut sum = carryover;
-            if let Some(node) = l1 {
+            if let Some(node) = l1_ {
                 sum += node.val;
-                l1 = node.next.as_deref();
+                l1_ = node.next.as_deref_mut();
             }
-            if let Some(node) = l2 {
+            if let Some(node) = l2_ {
                 sum += node.val;
-                l2 = node.next.as_deref();
+                carryover = sum / 10;
+                node.val = sum % 10;
+                if node.next == None && l1_ != None {
+                    node.next = Some(Box::new(l1_.unwrap().clone()));
+                    l1_ = None;
+                }
+                if node.next == None && carryover != 0 {
+                    node.next = Some(Box::new(ListNode::new(0)));
+                }
+                l2_ = node.next.as_deref_mut();
             }
-            carryover = sum / 10;
-            // println!("{}, {}", sum, carryover);
-            if let Some(node) = l3_current {
-                node.next = Some(Box::new(ListNode::new(sum % 10)));
-                l3_current = node.next.as_deref_mut();
-            }
+            println!("{}, {}", sum, carryover);
         }
-        l3.unwrap().next
+        l2
     }
 }
