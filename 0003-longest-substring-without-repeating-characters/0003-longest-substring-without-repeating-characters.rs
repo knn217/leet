@@ -1,18 +1,17 @@
-use std::collections::HashMap;
 
 impl Solution {
     pub fn length_of_longest_substring(s: String) -> i32 {
-        let mut window_hash = HashMap::new();
+        let mut map = vec![usize::MAX; 128]; // Vec of 128 element, init as 0
         let mut start = 0;
-        let mut res = 0;
-    
+        let mut max = 0;
         for (end, ch) in s.chars().enumerate() {
-            if let Some(pos) = window_hash.get(&ch) {
-                start = start.max(*pos);
+            let b = ch as usize;
+            if usize::MAX != map[b] {
+                start = start.max(map[b]);
             }
-            res = res.max(end + 1 - start);
-            window_hash.insert(ch, end + 1);
+            max = max.max(end + 1 - start);
+            map[b] = end + 1;
         }
-        res as i32
+        max as i32
     }
 }
