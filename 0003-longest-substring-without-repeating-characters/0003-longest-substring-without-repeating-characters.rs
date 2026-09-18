@@ -1,3 +1,4 @@
+
 impl Solution {
     pub fn length_of_longest_substring(s: String) -> i32 {
         let mut map = vec![usize::MAX; 128]; // Vec of 128 element, use MAX as init value
