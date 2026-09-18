@@ -8,7 +8,7 @@ impl Solution {
         loop {
             let mut remainder;
             (x, remainder) = (x / 10, x % 10);
-            println!("{}", remainder);
+            // println!("{}", remainder);
             // Push the remainder
             digits.push(remainder);
             if x == 0 { break; }
