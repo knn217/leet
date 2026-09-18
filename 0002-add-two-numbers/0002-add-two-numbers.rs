@@ -36,7 +36,7 @@ impl Solution {
                 l2 = node.next.as_deref();
             }
             carryover = sum / 10;
-            println!("{}, {}", sum, carryover);
+            // println!("{}, {}", sum, carryover);
             if let Some(node) = l3_current {
                 node.next = Some(Box::new(ListNode::new(sum % 10)));
                 l3_current = node.next.as_deref_mut();
