@@ -38,6 +38,7 @@
 | [0013-roman-to-integer](https://github.com/knn217/leet/tree/main/0013-roman-to-integer/) | Easy |
 | [0014-longest-common-prefix](https://github.com/knn217/leet/tree/main/0014-longest-common-prefix/) | Easy |
 | [0020-valid-parentheses](https://github.com/knn217/leet/tree/main/0020-valid-parentheses/) | Easy |
+| [3498-reverse-degree-of-a-string](https://github.com/knn217/leet/tree/main/3498-reverse-degree-of-a-string/) | Easy |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -67,4 +68,8 @@
 | ------- | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/knn217/leet/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0027-remove-element](https://github.com/knn217/leet/tree/main/0027-remove-element/) | Easy |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3498-reverse-degree-of-a-string](https://github.com/knn217/leet/tree/main/3498-reverse-degree-of-a-string/) | Easy |
 <!---LeetCode Topics End-->
