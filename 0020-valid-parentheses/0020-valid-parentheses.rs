@@ -23,11 +23,11 @@ impl Solution {
         for idx in 0..len {
             // Handle edge cases
             if openings.len() > (len - idx) {
-                println!("Not enough elements left to resolve {} openings", openings.len());
+                // println!("Not enough elements left to resolve {} openings", openings.len());
                 return false;
             }
             if openings.len() > (len / 2) {
-                println!("Number of openings {} is over half of the string", openings.len());
+                // println!("Number of openings {} is over half of the string", openings.len());
                 return false;
             }
             // Normal cases
@@ -36,7 +36,7 @@ impl Solution {
                 openings.push(ch);
             } else {
                 if let Some(last) = openings.pop() {
-                    println!("Completed parentheses: {}{}", last as char, ch as char);
+                    // println!("Completed parentheses: {}{}", last as char, ch as char);
                     if Self::get_closing(&last) != ch {
                         return false;
                     }
@@ -44,7 +44,7 @@ impl Solution {
             }
         }
         if !openings.is_empty() {
-            println!("There are still {} opening(s) remaining", openings.len());
+            // println!("There are still {} opening(s) remaining", openings.len());
             return false;
         }
         return true;
