@@ -9,13 +9,15 @@ impl Solution {
         for &num in &nums {
             let mut next_map = vec![0i64; k];
             let remainder = num as usize % k;
-            // Option 1: Start a new contiguous subarray with just `num`
+            // Option 1: Start a new contiguous subarray with just "num"
             next_map[remainder] += 1;
             // Option 2: Extend all contiguous subarrays ending at the previous element
-            for prev_remainder in 0..k {
+            for prev_remainder in 1..k {
+                // If nothing to add to new remainders
                 if map[prev_remainder] <= 0 { continue; }
-                let new_remainder = (prev_remainder * remainder) % k;
-                next_map[new_remainder] += map[prev_remainder];
+                // If not 0, convert to new ramainder and add to next map
+                let new_remainder = (prev_remainder * remainder) % k; // convert
+                next_map[new_remainder] += map[prev_remainder]; // add
             }
             // Accumulate into total counts and update map state
             for r in 1..k {
