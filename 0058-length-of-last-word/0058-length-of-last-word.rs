@@ -3,7 +3,7 @@ impl Solution {
         let mut len = 0;
         for ch in s.chars().rev() {
             if ch != ' ' { len += 1; }
-            else if len != 0 { return len; }
+            else if len != 0 { break; }
         }
         len
     }
