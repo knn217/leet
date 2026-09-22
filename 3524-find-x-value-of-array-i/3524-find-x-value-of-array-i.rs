@@ -9,6 +9,7 @@ impl Solution {
         for &num in &nums {
             let mut next_map = vec![0i64; k];
             let remainder = num as usize % k;
+            // Recursion: we can find next_map from map and next "num"
             // Option 1: Start a new contiguous subarray with just "num"
             next_map[remainder] += 1;
             // Option 2: Extend all contiguous subarrays ending at the previous element
@@ -25,6 +26,7 @@ impl Solution {
                 res[r] += next_map[r];
             }
             map = next_map;
+            // println!("{:?}", map);
         }
         res
     }
