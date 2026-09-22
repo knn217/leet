@@ -17,8 +17,8 @@ impl Node {
 }
 
 struct CompactSegTree {
-    n: usize,
-    k: usize,
+    n: usize, // Store num's actual length
+    k: usize, // Store the modulus
     tree: Vec<Node>, // Allocated exactly 2 * N (NOT 4 * N!)
 }
 
@@ -27,7 +27,7 @@ impl CompactSegTree {
         let n = nums.len();
         let k_usize = k as usize;
         
-        // Exact 2 * N memory allocation
+        // Exact 2 * N memory allocation, exact theoretical minimum for all leaf nodes + parent nodes
         let mut tree = vec![Node::empty(); 2 * n];
 
         // Build leaf nodes
