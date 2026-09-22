@@ -1,14 +1,16 @@
-// Size: 10 * 4 bytes + 4 bytes = 44 bytes -> packed tightly
+// Size: MAX_K * 4 bytes + 4 bytes -> packed tightly
+const MAX_K: usize = 5;
+
 #[derive(Clone, Copy)]
 struct Node {
-    dp: [i32; 10],
-    prod: i8, // Since K <= 10, i8 fits [0..10] easily
+    dp: [i32; MAX_K],
+    prod: i8, // Since K <= MAX_K, i8 fits [0..MAX_K] easily
 }
 
 impl Node {
     const fn empty() -> Self {
         Self {
-            dp: [0; 10],
+            dp: [0; MAX_K],
             prod: 1,
         }
     }
@@ -72,7 +74,7 @@ impl CompactSegTree {
         idx += self.n;
         let rem = (val as usize) % self.k;
         self.tree[idx].prod = rem as i8;
-        self.tree[idx].dp = [0; 10];
+        self.tree[idx].dp = [0; MAX_K];
         self.tree[idx].dp[rem] = 1;
 
         // Propagate up
