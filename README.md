@@ -115,4 +115,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/knn217/leet/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
+## Concurrency
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1114-print-in-order](https://github.com/knn217/leet/tree/main/1114-print-in-order/) | Easy |
 <!---LeetCode Topics End-->
