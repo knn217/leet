@@ -10,6 +10,7 @@
 | [0026-remove-duplicates-from-sorted-array](https://github.com/knn217/leet/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0027-remove-element](https://github.com/knn217/leet/tree/main/0027-remove-element/) | Easy |
 | [0035-search-insert-position](https://github.com/knn217/leet/tree/main/0035-search-insert-position/) | Easy |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/knn217/leet/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [3524-find-x-value-of-array-i](https://github.com/knn217/leet/tree/main/3524-find-x-value-of-array-i/) | Medium |
 | [3525-find-x-value-of-array-ii](https://github.com/knn217/leet/tree/main/3525-find-x-value-of-array-ii/) | Hard |
 ## Hash Table
@@ -18,6 +19,7 @@
 | [0001-two-sum](https://github.com/knn217/leet/tree/main/0001-two-sum/) | Easy |
 | [0003-longest-substring-without-repeating-characters](https://github.com/knn217/leet/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0013-roman-to-integer](https://github.com/knn217/leet/tree/main/0013-roman-to-integer/) | Easy |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/knn217/leet/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -54,11 +56,13 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/knn217/leet/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/knn217/leet/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/knn217/leet/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
 | [0035-search-insert-position](https://github.com/knn217/leet/tree/main/0035-search-insert-position/) | Easy |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/knn217/leet/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -119,4 +123,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1114-print-in-order](https://github.com/knn217/leet/tree/main/1114-print-in-order/) | Easy |
+## Prefix Sum
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/knn217/leet/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 <!---LeetCode Topics End-->
