@@ -10,6 +10,7 @@ impl Solution {
         let mut sum_closest: Option<i32> = None;
         for (idx_i, &val_i) in nums.iter().enumerate() {
             if idx_i > (nums.len() - 2) { break; }
+            if idx_i > 0 && nums[idx_i - 1] == val_i { continue; }
             let mut idx_j = idx_i + 1;
             let mut idx_k = nums.len() - 1;
             let mut sum = i32::MAX;
