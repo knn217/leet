@@ -8,6 +8,7 @@ impl Solution {
         let mut nums = nums;
         nums.sort();
         let mut sum_closest: Option<i32> = None;
+        let mut closest_dist = i32::MAX;
         for (idx_i, &val_i) in nums.iter().enumerate() {
             if idx_i > (nums.len() - 2) { break; }
             if idx_i > 0 && nums[idx_i - 1] == val_i { continue; }
@@ -28,9 +29,12 @@ impl Solution {
                 else if sum > target { idx_k -= 1; }
                 if (None == sum_closest) {
                     sum_closest = Some(sum);
+                    closest_dist = (target - sum).abs();
                 }
-                if (target - sum).abs() < (target - sum_closest.unwrap()).abs() {
+                let new_dist = (target - sum).abs();
+                if closest_dist > new_dist {
                     sum_closest = Some(sum);
+                    closest_dist = new_dist;
                 }
                 // println!("sum_closest: {}", sum_closest.unwrap());
             }
