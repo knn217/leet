@@ -9,6 +9,7 @@
 | [0011-container-with-most-water](https://github.com/knn217/leet/tree/main/0011-container-with-most-water/) | Medium |
 | [0014-longest-common-prefix](https://github.com/knn217/leet/tree/main/0014-longest-common-prefix/) | Easy |
 | [0015-3sum](https://github.com/knn217/leet/tree/main/0015-3sum/) | Medium |
+| [0016-3sum-closest](https://github.com/knn217/leet/tree/main/0016-3sum-closest/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/knn217/leet/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0027-remove-element](https://github.com/knn217/leet/tree/main/0027-remove-element/) | Easy |
 | [0035-search-insert-position](https://github.com/knn217/leet/tree/main/0035-search-insert-position/) | Easy |
@@ -90,6 +91,7 @@
 | [0005-longest-palindromic-substring](https://github.com/knn217/leet/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0011-container-with-most-water](https://github.com/knn217/leet/tree/main/0011-container-with-most-water/) | Medium |
 | [0015-3sum](https://github.com/knn217/leet/tree/main/0015-3sum/) | Medium |
+| [0016-3sum-closest](https://github.com/knn217/leet/tree/main/0016-3sum-closest/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/knn217/leet/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0027-remove-element](https://github.com/knn217/leet/tree/main/0027-remove-element/) | Easy |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/knn217/leet/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
@@ -142,4 +144,5 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0015-3sum](https://github.com/knn217/leet/tree/main/0015-3sum/) | Medium |
+| [0016-3sum-closest](https://github.com/knn217/leet/tree/main/0016-3sum-closest/) | Medium |
 <!---LeetCode Topics End-->
