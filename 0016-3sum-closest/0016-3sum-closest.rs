@@ -14,8 +14,8 @@ impl Solution {
             let mut idx_k = nums.len() - 1;
             let mut sum = i32::MAX;
             while idx_j < idx_k {
-                if !(0..nums.len()).contains(&idx_j) { break; }
-                if !(0..nums.len()).contains(&idx_k) { break; }
+                // if !(0..nums.len()).contains(&idx_j) { break; }
+                // if !(0..nums.len()).contains(&idx_k) { break; }
                 let val_j = nums[idx_j];
                 let val_k = nums[idx_k];
                 sum = val_i + val_j + val_k;
