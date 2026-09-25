@@ -36,6 +36,7 @@
 | [0009-palindrome-number](https://github.com/knn217/leet/tree/main/0009-palindrome-number/) | Easy |
 | [0012-integer-to-roman](https://github.com/knn217/leet/tree/main/0012-integer-to-roman/) | Medium |
 | [0013-roman-to-integer](https://github.com/knn217/leet/tree/main/0013-roman-to-integer/) | Easy |
+| [0029-divide-two-integers](https://github.com/knn217/leet/tree/main/0029-divide-two-integers/) | Medium |
 | [3524-find-x-value-of-array-i](https://github.com/knn217/leet/tree/main/3524-find-x-value-of-array-i/) | Medium |
 | [3525-find-x-value-of-array-ii](https://github.com/knn217/leet/tree/main/3525-find-x-value-of-array-ii/) | Hard |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/knn217/leet/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
@@ -181,4 +182,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1096-brace-expansion-ii](https://github.com/knn217/leet/tree/main/1096-brace-expansion-ii/) | Hard |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0029-divide-two-integers](https://github.com/knn217/leet/tree/main/0029-divide-two-integers/) | Medium |
 <!---LeetCode Topics End-->
