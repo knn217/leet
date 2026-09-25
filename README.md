@@ -46,6 +46,7 @@
 | [0021-merge-two-sorted-lists](https://github.com/knn217/leet/tree/main/0021-merge-two-sorted-lists/) | Easy |
 | [0024-swap-nodes-in-pairs](https://github.com/knn217/leet/tree/main/0024-swap-nodes-in-pairs/) | Medium |
 | [0061-rotate-list](https://github.com/knn217/leet/tree/main/0061-rotate-list/) | Medium |
+| [0082-remove-duplicates-from-sorted-list-ii](https://github.com/knn217/leet/tree/main/0082-remove-duplicates-from-sorted-list-ii/) | Medium |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/knn217/leet/tree/main/0083-remove-duplicates-from-sorted-list/) | Easy |
 ## Recursion
 | Problem Name | Difficulty |
@@ -112,6 +113,7 @@
 | [0027-remove-element](https://github.com/knn217/leet/tree/main/0027-remove-element/) | Easy |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/knn217/leet/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0061-rotate-list](https://github.com/knn217/leet/tree/main/0061-rotate-list/) | Medium |
+| [0082-remove-duplicates-from-sorted-list-ii](https://github.com/knn217/leet/tree/main/0082-remove-duplicates-from-sorted-list-ii/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
