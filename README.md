@@ -42,6 +42,7 @@
 | [0013-roman-to-integer](https://github.com/knn217/leet/tree/main/0013-roman-to-integer/) | Easy |
 | [0029-divide-two-integers](https://github.com/knn217/leet/tree/main/0029-divide-two-integers/) | Medium |
 | [0066-plus-one](https://github.com/knn217/leet/tree/main/0066-plus-one/) | Easy |
+| [0069-sqrtx](https://github.com/knn217/leet/tree/main/0069-sqrtx/) | Easy |
 | [3524-find-x-value-of-array-i](https://github.com/knn217/leet/tree/main/3524-find-x-value-of-array-i/) | Medium |
 | [3525-find-x-value-of-array-ii](https://github.com/knn217/leet/tree/main/3525-find-x-value-of-array-ii/) | Hard |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/knn217/leet/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
@@ -92,6 +93,7 @@
 | ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/knn217/leet/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
 | [0035-search-insert-position](https://github.com/knn217/leet/tree/main/0035-search-insert-position/) | Easy |
+| [0069-sqrtx](https://github.com/knn217/leet/tree/main/0069-sqrtx/) | Easy |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/knn217/leet/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
@@ -207,4 +209,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/knn217/leet/tree/main/0023-merge-k-sorted-lists/) | Hard |
+## Newton's Method
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0069-sqrtx](https://github.com/knn217/leet/tree/main/0069-sqrtx/) | Easy |
 <!---LeetCode Topics End-->
