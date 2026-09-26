@@ -15,6 +15,7 @@
 | [0027-remove-element](https://github.com/knn217/leet/tree/main/0027-remove-element/) | Easy |
 | [0031-next-permutation](https://github.com/knn217/leet/tree/main/0031-next-permutation/) | Medium |
 | [0035-search-insert-position](https://github.com/knn217/leet/tree/main/0035-search-insert-position/) | Easy |
+| [0066-plus-one](https://github.com/knn217/leet/tree/main/0066-plus-one/) | Easy |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/knn217/leet/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/knn217/leet/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
 | [3524-find-x-value-of-array-i](https://github.com/knn217/leet/tree/main/3524-find-x-value-of-array-i/) | Medium |
@@ -40,6 +41,7 @@
 | [0012-integer-to-roman](https://github.com/knn217/leet/tree/main/0012-integer-to-roman/) | Medium |
 | [0013-roman-to-integer](https://github.com/knn217/leet/tree/main/0013-roman-to-integer/) | Easy |
 | [0029-divide-two-integers](https://github.com/knn217/leet/tree/main/0029-divide-two-integers/) | Medium |
+| [0066-plus-one](https://github.com/knn217/leet/tree/main/0066-plus-one/) | Easy |
 | [3524-find-x-value-of-array-i](https://github.com/knn217/leet/tree/main/3524-find-x-value-of-array-i/) | Medium |
 | [3525-find-x-value-of-array-ii](https://github.com/knn217/leet/tree/main/3525-find-x-value-of-array-ii/) | Hard |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/knn217/leet/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
