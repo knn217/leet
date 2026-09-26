@@ -43,6 +43,7 @@
 | [0029-divide-two-integers](https://github.com/knn217/leet/tree/main/0029-divide-two-integers/) | Medium |
 | [0066-plus-one](https://github.com/knn217/leet/tree/main/0066-plus-one/) | Easy |
 | [0069-sqrtx](https://github.com/knn217/leet/tree/main/0069-sqrtx/) | Easy |
+| [0070-climbing-stairs](https://github.com/knn217/leet/tree/main/0070-climbing-stairs/) | Easy |
 | [3524-find-x-value-of-array-i](https://github.com/knn217/leet/tree/main/3524-find-x-value-of-array-i/) | Medium |
 | [3525-find-x-value-of-array-ii](https://github.com/knn217/leet/tree/main/3525-find-x-value-of-array-ii/) | Hard |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/knn217/leet/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
@@ -139,6 +140,7 @@
 | [0005-longest-palindromic-substring](https://github.com/knn217/leet/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0010-regular-expression-matching](https://github.com/knn217/leet/tree/main/0010-regular-expression-matching/) | Hard |
 | [0022-generate-parentheses](https://github.com/knn217/leet/tree/main/0022-generate-parentheses/) | Medium |
+| [0070-climbing-stairs](https://github.com/knn217/leet/tree/main/0070-climbing-stairs/) | Easy |
 | [3524-find-x-value-of-array-i](https://github.com/knn217/leet/tree/main/3524-find-x-value-of-array-i/) | Medium |
 ## Manacher
 | Problem Name | Difficulty |
@@ -213,4 +215,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0069-sqrtx](https://github.com/knn217/leet/tree/main/0069-sqrtx/) | Easy |
+## Memoization
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0070-climbing-stairs](https://github.com/knn217/leet/tree/main/0070-climbing-stairs/) | Easy |
 <!---LeetCode Topics End-->
