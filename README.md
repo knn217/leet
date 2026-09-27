@@ -204,6 +204,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0101-symmetric-tree](https://github.com/knn217/leet/tree/main/0101-symmetric-tree/) | Easy |
+| [0111-minimum-depth-of-binary-tree](https://github.com/knn217/leet/tree/main/0111-minimum-depth-of-binary-tree/) | Easy |
 | [1096-brace-expansion-ii](https://github.com/knn217/leet/tree/main/1096-brace-expansion-ii/) | Hard |
 ## Bit Manipulation
 | Problem Name | Difficulty |
@@ -236,12 +237,14 @@
 | [0101-symmetric-tree](https://github.com/knn217/leet/tree/main/0101-symmetric-tree/) | Easy |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/knn217/leet/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/knn217/leet/tree/main/0110-balanced-binary-tree/) | Easy |
+| [0111-minimum-depth-of-binary-tree](https://github.com/knn217/leet/tree/main/0111-minimum-depth-of-binary-tree/) | Easy |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/knn217/leet/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0101-symmetric-tree](https://github.com/knn217/leet/tree/main/0101-symmetric-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/knn217/leet/tree/main/0110-balanced-binary-tree/) | Easy |
+| [0111-minimum-depth-of-binary-tree](https://github.com/knn217/leet/tree/main/0111-minimum-depth-of-binary-tree/) | Easy |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -249,6 +252,7 @@
 | [0101-symmetric-tree](https://github.com/knn217/leet/tree/main/0101-symmetric-tree/) | Easy |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/knn217/leet/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/knn217/leet/tree/main/0110-balanced-binary-tree/) | Easy |
+| [0111-minimum-depth-of-binary-tree](https://github.com/knn217/leet/tree/main/0111-minimum-depth-of-binary-tree/) | Easy |
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
