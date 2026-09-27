@@ -19,6 +19,7 @@ public:
         else if (nullptr == root->right) { return false; }
         // The hard case left is left and right both are not null
         // Swap left_left with right_left
+        // After swapping, the 2 sides should be mirrored too if root is mirrored
         TreeNode* tmp = root->left->left;
         root->left->left = root->right->left;
         root->right->left = tmp;
