@@ -12,17 +12,24 @@
 class Solution {
 public:
     bool isBalanced(TreeNode* root) {
-        if (nullptr == root) { return true; }
-        size_t height_left = this->height(root->left);
-        size_t height_right = this->height(root->right);
-        bool balance_root = (std::abs(static_cast<int>(height_left) - static_cast<int>(height_right)) <= 1);
-        bool balance_left = this->isBalanced(root->left);
-        bool balance_right = this->isBalanced(root->right);
-        return (balance_root && balance_left && balance_right);
+        return checkHeight(root) != -1;
     }
 private:
-    size_t height(TreeNode* root) {
-        if (nullptr == root) { return 0; }
-        return 1 + max(this->height(root->left), this->height(root->right));
+    int checkHeight(TreeNode* node) {
+        if (!node) return 0;
+
+        int leftHeight = checkHeight(node->left);
+        if (leftHeight == -1) return -1; // Left subtree is unbalanced
+
+        int rightHeight = checkHeight(node->right);
+        if (rightHeight == -1) return -1; // Right subtree is unbalanced
+
+        // Current node is unbalanced
+        if (std::abs(leftHeight - rightHeight) > 1) {
+            return -1;
+        }
+
+        // Return current height if balanced
+        return 1 + std::max(leftHeight, rightHeight);
     }
 };
