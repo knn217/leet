@@ -85,6 +85,7 @@
 | [0022-generate-parentheses](https://github.com/knn217/leet/tree/main/0022-generate-parentheses/) | Medium |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/knn217/leet/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0058-length-of-last-word](https://github.com/knn217/leet/tree/main/0058-length-of-last-word/) | Easy |
+| [0125-valid-palindrome](https://github.com/knn217/leet/tree/main/0125-valid-palindrome/) | Easy |
 | [1096-brace-expansion-ii](https://github.com/knn217/leet/tree/main/1096-brace-expansion-ii/) | Hard |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/knn217/leet/tree/main/1190-reverse-substrings-between-each-pair-of-parentheses/) | Medium |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/knn217/leet/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
@@ -140,6 +141,7 @@
 | [0061-rotate-list](https://github.com/knn217/leet/tree/main/0061-rotate-list/) | Medium |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/knn217/leet/tree/main/0082-remove-duplicates-from-sorted-list-ii/) | Medium |
 | [0088-merge-sorted-array](https://github.com/knn217/leet/tree/main/0088-merge-sorted-array/) | Easy |
+| [0125-valid-palindrome](https://github.com/knn217/leet/tree/main/0125-valid-palindrome/) | Easy |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
