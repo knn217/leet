@@ -14,7 +14,9 @@ public:
     int minDepth(TreeNode* root) {
         if (nullptr == root) { return 0; }
         int depth_left = this->minDepth(root->left);
+        if (1 == depth_left) { return (1 + depth_left); }
         int depth_right = this->minDepth(root->right);
+        if (1 == depth_right) { return (1 + depth_right); }
         if (0 == depth_left) { return (1 + depth_right); }
         if (0 == depth_right) { return (1 + depth_left); }
         return 1 + min(depth_left, depth_right);
