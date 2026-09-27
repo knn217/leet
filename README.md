@@ -17,6 +17,7 @@
 | [0035-search-insert-position](https://github.com/knn217/leet/tree/main/0035-search-insert-position/) | Easy |
 | [0066-plus-one](https://github.com/knn217/leet/tree/main/0066-plus-one/) | Easy |
 | [0088-merge-sorted-array](https://github.com/knn217/leet/tree/main/0088-merge-sorted-array/) | Easy |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/knn217/leet/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/knn217/leet/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/knn217/leet/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
 | [3524-find-x-value-of-array-i](https://github.com/knn217/leet/tree/main/3524-find-x-value-of-array-i/) | Medium |
@@ -103,6 +104,7 @@
 | ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/knn217/leet/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
 | [0023-merge-k-sorted-lists](https://github.com/knn217/leet/tree/main/0023-merge-k-sorted-lists/) | Hard |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/knn217/leet/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -232,6 +234,7 @@
 | ------- | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/knn217/leet/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0101-symmetric-tree](https://github.com/knn217/leet/tree/main/0101-symmetric-tree/) | Easy |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/knn217/leet/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -242,4 +245,9 @@
 | ------- | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/knn217/leet/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0101-symmetric-tree](https://github.com/knn217/leet/tree/main/0101-symmetric-tree/) | Easy |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/knn217/leet/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
+## Binary Search Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/knn217/leet/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 <!---LeetCode Topics End-->
