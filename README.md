@@ -16,6 +16,7 @@
 | [0031-next-permutation](https://github.com/knn217/leet/tree/main/0031-next-permutation/) | Medium |
 | [0035-search-insert-position](https://github.com/knn217/leet/tree/main/0035-search-insert-position/) | Easy |
 | [0066-plus-one](https://github.com/knn217/leet/tree/main/0066-plus-one/) | Easy |
+| [0088-merge-sorted-array](https://github.com/knn217/leet/tree/main/0088-merge-sorted-array/) | Easy |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/knn217/leet/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/knn217/leet/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
 | [3524-find-x-value-of-array-i](https://github.com/knn217/leet/tree/main/3524-find-x-value-of-array-i/) | Medium |
@@ -133,6 +134,7 @@
 | [0031-next-permutation](https://github.com/knn217/leet/tree/main/0031-next-permutation/) | Medium |
 | [0061-rotate-list](https://github.com/knn217/leet/tree/main/0061-rotate-list/) | Medium |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/knn217/leet/tree/main/0082-remove-duplicates-from-sorted-list-ii/) | Medium |
+| [0088-merge-sorted-array](https://github.com/knn217/leet/tree/main/0088-merge-sorted-array/) | Easy |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -187,6 +189,7 @@
 | [0015-3sum](https://github.com/knn217/leet/tree/main/0015-3sum/) | Medium |
 | [0016-3sum-closest](https://github.com/knn217/leet/tree/main/0016-3sum-closest/) | Medium |
 | [0018-4sum](https://github.com/knn217/leet/tree/main/0018-4sum/) | Medium |
+| [0088-merge-sorted-array](https://github.com/knn217/leet/tree/main/0088-merge-sorted-array/) | Easy |
 | [1096-brace-expansion-ii](https://github.com/knn217/leet/tree/main/1096-brace-expansion-ii/) | Hard |
 ## Backtracking
 | Problem Name | Difficulty |
