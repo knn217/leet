@@ -92,6 +92,7 @@
 | [0125-valid-palindrome](https://github.com/knn217/leet/tree/main/0125-valid-palindrome/) | Easy |
 | [1096-brace-expansion-ii](https://github.com/knn217/leet/tree/main/1096-brace-expansion-ii/) | Hard |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/knn217/leet/tree/main/1190-reverse-substrings-between-each-pair-of-parentheses/) | Medium |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/knn217/leet/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/knn217/leet/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
 | [3498-reverse-degree-of-a-string](https://github.com/knn217/leet/tree/main/3498-reverse-degree-of-a-string/) | Easy |
 ## Sliding Window
@@ -125,12 +126,14 @@
 | [0094-binary-tree-inorder-traversal](https://github.com/knn217/leet/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [1096-brace-expansion-ii](https://github.com/knn217/leet/tree/main/1096-brace-expansion-ii/) | Hard |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/knn217/leet/tree/main/1190-reverse-substrings-between-each-pair-of-parentheses/) | Medium |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/knn217/leet/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
 ## Bracket Sequences
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/knn217/leet/tree/main/0020-valid-parentheses/) | Easy |
 | [0022-generate-parentheses](https://github.com/knn217/leet/tree/main/0022-generate-parentheses/) | Medium |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/knn217/leet/tree/main/1190-reverse-substrings-between-each-pair-of-parentheses/) | Medium |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/knn217/leet/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
