@@ -17,6 +17,7 @@
 | [0033-search-in-rotated-sorted-array](https://github.com/knn217/leet/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/knn217/leet/tree/main/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
 | [0035-search-insert-position](https://github.com/knn217/leet/tree/main/0035-search-insert-position/) | Easy |
+| [0036-valid-sudoku](https://github.com/knn217/leet/tree/main/0036-valid-sudoku/) | Medium |
 | [0066-plus-one](https://github.com/knn217/leet/tree/main/0066-plus-one/) | Easy |
 | [0088-merge-sorted-array](https://github.com/knn217/leet/tree/main/0088-merge-sorted-array/) | Easy |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/knn217/leet/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
@@ -35,6 +36,7 @@
 | [0012-integer-to-roman](https://github.com/knn217/leet/tree/main/0012-integer-to-roman/) | Medium |
 | [0013-roman-to-integer](https://github.com/knn217/leet/tree/main/0013-roman-to-integer/) | Easy |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/knn217/leet/tree/main/0017-letter-combinations-of-a-phone-number/) | Medium |
+| [0036-valid-sudoku](https://github.com/knn217/leet/tree/main/0036-valid-sudoku/) | Medium |
 | [1096-brace-expansion-ii](https://github.com/knn217/leet/tree/main/1096-brace-expansion-ii/) | Hard |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/knn217/leet/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/knn217/leet/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
@@ -272,4 +274,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/knn217/leet/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
+## Matrix
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0036-valid-sudoku](https://github.com/knn217/leet/tree/main/0036-valid-sudoku/) | Medium |
 <!---LeetCode Topics End-->
