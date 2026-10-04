@@ -1,37 +1,31 @@
 class Solution {
 public:
     string countAndSay(int n) {
+        if (n == 1) return "1";
+        
         string res = "1";
-        for (int i = 1; i < n; i ++) {
-            res = this->RLE(res);
-        }
-        return res;
-    }
-private:
-    string RLE(string const &str) {
-        char current_digit = '*';
-        int count = 0;
-        string res = "";
-        for (int i = 0; i<str.size(); i++) {
-            const char ch = str[i];
-            if (!std::isdigit(ch)) {
-                // printf("Invalid: char is not digit\n");
-                break;
-            }
-            if (ch != current_digit) {
-                if (0 != count) {
-                    res += std::to_string(count);
-                    res += current_digit;
+        res.reserve(4500); // Reserve enough memory to avoid reallocations up to n=30
+        
+        for (int i = 1; i < n; ++i) {
+            string next;
+            next.reserve(res.size() * 2); // Reserve space for the next sequence
+            
+            int len = res.size();
+            for (int j = 0; j < len; ) {
+                int k = j;
+                while (k < len && res[k] == res[j]) {
+                    k++;
                 }
-                current_digit = ch;
-                count = 1;
-            } else {
-                count++;
+                
+                int count = k - j;
+                next.push_back('0' + count); // Direct char conversion (fast)
+                next.push_back(res[j]);
+                
+                j = k; // Jump to the next distinct digit run
             }
+            res = std::move(next); // Zero-copy move assignment
         }
-        // Handle the last digit, which the loop skipped
-        res += std::to_string(count);
-        res += current_digit;
+        
         return res;
     }
 };
