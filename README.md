@@ -18,6 +18,7 @@
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/knn217/leet/tree/main/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
 | [0035-search-insert-position](https://github.com/knn217/leet/tree/main/0035-search-insert-position/) | Easy |
 | [0036-valid-sudoku](https://github.com/knn217/leet/tree/main/0036-valid-sudoku/) | Medium |
+| [0039-combination-sum](https://github.com/knn217/leet/tree/main/0039-combination-sum/) | Medium |
 | [0066-plus-one](https://github.com/knn217/leet/tree/main/0066-plus-one/) | Easy |
 | [0088-merge-sorted-array](https://github.com/knn217/leet/tree/main/0088-merge-sorted-array/) | Easy |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/knn217/leet/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
@@ -232,6 +233,7 @@
 | ------- | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/knn217/leet/tree/main/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0022-generate-parentheses](https://github.com/knn217/leet/tree/main/0022-generate-parentheses/) | Medium |
+| [0039-combination-sum](https://github.com/knn217/leet/tree/main/0039-combination-sum/) | Medium |
 | [1096-brace-expansion-ii](https://github.com/knn217/leet/tree/main/1096-brace-expansion-ii/) | Hard |
 ## Breadth-First Search
 | Problem Name | Difficulty |
