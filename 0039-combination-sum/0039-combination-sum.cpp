@@ -10,7 +10,7 @@ public:
         // Sorting allows early pruning when candidate > target
         std::sort(candidates.begin(), candidates.end());
         
-        backtrack(candidates, target, 0, current, results);
+        this->backtrack(candidates, target, 0, current, results);
         return results;
     }
 
@@ -33,7 +33,7 @@ private:
             current.push_back(candidates[i]);
             
             // Explore (stay at index `i` since elements can be reused)
-            backtrack(candidates, remaining - candidates[i], i, current, results);
+            this->backtrack(candidates, remaining - candidates[i], i, current, results);
             
             // Unchoose (backtrack)
             current.pop_back();
