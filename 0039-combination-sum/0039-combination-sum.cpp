@@ -1,30 +1,42 @@
+#include <vector>
+#include <algorithm>
+
 class Solution {
 public:
-    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-        span<int> span_full{candidates};
-        return this->recurs(span_full, target);
+    std::vector<std::vector<int>> combinationSum(std::vector<int>& candidates, int target) {
+        std::vector<std::vector<int>> results;
+        std::vector<int> current;
+        
+        // Sorting allows early pruning when candidate > target
+        std::sort(candidates.begin(), candidates.end());
+        
+        backtrack(candidates, target, 0, current, results);
+        return results;
     }
+
 private:
-    vector<vector<int>> recurs(span<int>& candidates, int target) {
-        // printf("Getting combinations for target (%d)\n", target);
-        vector<vector<int>> res{};
-        // if (0 > target) { return res;}
-        if (0 == target) {
-            res.push_back(vector<int>());
-            return res;
+    void backtrack(const std::vector<int>& candidates, int remaining, int start_index,
+                   std::vector<int>& current, std::vector<std::vector<int>>& results) {
+        if (remaining == 0) {
+            results.push_back(current);
+            return;
         }
-        for (int i = 0; i < candidates.size(); i++) {
-            int candidate = candidates[i];
-            int new_target = target - candidate;
-            if (0 > new_target) { continue; }
-            auto new_candidates = candidates.subspan(i);
-            auto sub_vecs = this->recurs(new_candidates, new_target);
-            // if (0 == sub_vecs.size()) { continue; }
-            for (auto &vec : sub_vecs) {
-                vec.push_back(candidate);
+
+        for (size_t i = start_index; i < candidates.size(); ++i) {
+            // Pruning: Since candidates are sorted, if the current element exceeds 
+            // the remaining target, all subsequent candidates will too.
+            if (candidates[i] > remaining) {
+                break;
             }
-            res.insert(res.end(), sub_vecs.begin(), sub_vecs.end());
+
+            // Choose
+            current.push_back(candidates[i]);
+            
+            // Explore (stay at index `i` since elements can be reused)
+            backtrack(candidates, remaining - candidates[i], i, current, results);
+            
+            // Unchoose (backtrack)
+            current.pop_back();
         }
-        return res;
     }
 };
