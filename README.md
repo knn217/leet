@@ -98,6 +98,7 @@
 | [0125-valid-palindrome](https://github.com/knn217/leet/tree/main/0125-valid-palindrome/) | Easy |
 | [0678-valid-parenthesis-string](https://github.com/knn217/leet/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0856-score-of-parentheses](https://github.com/knn217/leet/tree/main/0856-score-of-parentheses/) | Medium |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/knn217/leet/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
 | [1096-brace-expansion-ii](https://github.com/knn217/leet/tree/main/1096-brace-expansion-ii/) | Hard |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/knn217/leet/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/knn217/leet/tree/main/1190-reverse-substrings-between-each-pair-of-parentheses/) | Medium |
@@ -136,6 +137,7 @@
 | [0094-binary-tree-inorder-traversal](https://github.com/knn217/leet/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0678-valid-parenthesis-string](https://github.com/knn217/leet/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0856-score-of-parentheses](https://github.com/knn217/leet/tree/main/0856-score-of-parentheses/) | Medium |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/knn217/leet/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
 | [1096-brace-expansion-ii](https://github.com/knn217/leet/tree/main/1096-brace-expansion-ii/) | Hard |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/knn217/leet/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/knn217/leet/tree/main/1190-reverse-substrings-between-each-pair-of-parentheses/) | Medium |
@@ -148,6 +150,7 @@
 | [0032-longest-valid-parentheses](https://github.com/knn217/leet/tree/main/0032-longest-valid-parentheses/) | Hard |
 | [0678-valid-parenthesis-string](https://github.com/knn217/leet/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0856-score-of-parentheses](https://github.com/knn217/leet/tree/main/0856-score-of-parentheses/) | Medium |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/knn217/leet/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/knn217/leet/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/knn217/leet/tree/main/1190-reverse-substrings-between-each-pair-of-parentheses/) | Medium |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/knn217/leet/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
@@ -223,6 +226,7 @@
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/knn217/leet/tree/main/0011-container-with-most-water/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/knn217/leet/tree/main/0678-valid-parenthesis-string/) | Medium |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/knn217/leet/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
