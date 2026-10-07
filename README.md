@@ -96,6 +96,7 @@
 | [0038-count-and-say](https://github.com/knn217/leet/tree/main/0038-count-and-say/) | Medium |
 | [0058-length-of-last-word](https://github.com/knn217/leet/tree/main/0058-length-of-last-word/) | Easy |
 | [0125-valid-palindrome](https://github.com/knn217/leet/tree/main/0125-valid-palindrome/) | Easy |
+| [0301-remove-invalid-parentheses](https://github.com/knn217/leet/tree/main/0301-remove-invalid-parentheses/) | Hard |
 | [0678-valid-parenthesis-string](https://github.com/knn217/leet/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0856-score-of-parentheses](https://github.com/knn217/leet/tree/main/0856-score-of-parentheses/) | Medium |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/knn217/leet/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
@@ -241,12 +242,14 @@
 | [0017-letter-combinations-of-a-phone-number](https://github.com/knn217/leet/tree/main/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0022-generate-parentheses](https://github.com/knn217/leet/tree/main/0022-generate-parentheses/) | Medium |
 | [0039-combination-sum](https://github.com/knn217/leet/tree/main/0039-combination-sum/) | Medium |
+| [0301-remove-invalid-parentheses](https://github.com/knn217/leet/tree/main/0301-remove-invalid-parentheses/) | Hard |
 | [1096-brace-expansion-ii](https://github.com/knn217/leet/tree/main/1096-brace-expansion-ii/) | Hard |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0101-symmetric-tree](https://github.com/knn217/leet/tree/main/0101-symmetric-tree/) | Easy |
 | [0111-minimum-depth-of-binary-tree](https://github.com/knn217/leet/tree/main/0111-minimum-depth-of-binary-tree/) | Easy |
+| [0301-remove-invalid-parentheses](https://github.com/knn217/leet/tree/main/0301-remove-invalid-parentheses/) | Hard |
 | [1096-brace-expansion-ii](https://github.com/knn217/leet/tree/main/1096-brace-expansion-ii/) | Hard |
 ## Bit Manipulation
 | Problem Name | Difficulty |
