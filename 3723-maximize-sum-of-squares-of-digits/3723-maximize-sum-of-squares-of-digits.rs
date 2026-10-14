@@ -6,7 +6,7 @@ impl Solution {
         for digit in 0..num {
             if sum <= 0 {
                 s.push_str(&("0".repeat(num - digit)));
-                break;
+                return s;
             }
             let min_digit = sum.min(9);
             s.push_str(&(min_digit.to_string()));
